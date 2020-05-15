@@ -1,0 +1,28 @@
+{
+  "name": "vhf-cli",
+  "version": "1.0.0",
+  "description": "业务脚手架搭建",
+  "main": "index.js",
+  "bin": {
+    "vhf": "bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli"
+  ],
+  "author": "ljxin",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "commander": "^5.1.0",
+    "cross-spawn": "^7.0.2",
+    "download-git-repo": "^3.0.2",
+    "fs-extra": "^9.0.0",
+    "inquirer": "^7.1.0",
+    "log-symbols": "^4.0.0",
+    "minimist": "^1.2.5",
+    "ora": "^4.0.4"
+  }
+}
